@@ -1,0 +1,31 @@
+{
+  "name": "DKAnimation",
+  "version": "0.1.0",
+  "summary": "Make it easier to do animation in apps",
+  "description": "Using POP to Make it easier to do animation in apps",
+  "homepage": "https://github.com/DevelopKit/DKAnimation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiang zhai": "zq4950411@163.com"
+  },
+  "source": {
+    "git": "https://github.com/DevelopKit/DKAnimation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DKAnimation/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "pop": [
+
+    ]
+  }
+}

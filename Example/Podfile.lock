@@ -1,0 +1,19 @@
+PODS:
+  - DKAnimation (0.1.0):
+    - pop
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - DKAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  DKAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DKAnimation: 9ff12e2aed20f6354b769e35f821ac224d0e149c
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: 5c1878162dd8d52ad4f733026b06eac5be219e10
+
+COCOAPODS: 1.0.1

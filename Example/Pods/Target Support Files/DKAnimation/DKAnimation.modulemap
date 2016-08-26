@@ -1,0 +1,6 @@
+framework module DKAnimation {
+  umbrella header "DKAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

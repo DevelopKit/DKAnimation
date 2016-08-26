@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2901BF2A8792B4E23704302F /* Pods_DKAnimation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09722EE77585553F2CAFB3EC /* Pods_DKAnimation_Tests.framework */; };
+		44EF0D79E0C87D1359711F16 /* Pods_DKAnimation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88A91F325847728276D9B20 /* Pods_DKAnimation_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DKAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DKViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		85A022841D6C4F7000DDB076 /* DKCustomAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022821D6C4F7000DDB076 /* DKCustomAnimationViewController.m */; };
+		85A022851D6C4F7000DDB076 /* DKCustomAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022831D6C4F7000DDB076 /* DKCustomAnimationViewController.xib */; };
+		85A022941D6E982C00DDB076 /* DKSpringTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022921D6E982C00DDB076 /* DKSpringTableViewController.m */; };
+		85A022991D6E992800DDB076 /* DKSpringStudyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022971D6E992800DDB076 /* DKSpringStudyScene.m */; };
+		85A0229A1D6E992800DDB076 /* DKSpringStudyScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022981D6E992800DDB076 /* DKSpringStudyScene.xib */; };
+		85A022A01D6FD71100DDB076 /* DKCustomPropertyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A0229E1D6FD71100DDB076 /* DKCustomPropertyScene.m */; };
+		85A022A11D6FD71100DDB076 /* DKCustomPropertyScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A0229F1D6FD71100DDB076 /* DKCustomPropertyScene.xib */; };
+		85A022A41D6FE18600DDB076 /* DKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022A31D6FE18600DDB076 /* DKBaseViewController.m */; };
+		85A022A91D6FEB8C00DDB076 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A022A81D6FEB8C00DDB076 /* Launch Screen.storyboard */; };
+		85A022AC1D70095900DDB076 /* DKDecayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022AB1D70095900DDB076 /* DKDecayTableViewController.m */; };
+		85A022B01D70097800DDB076 /* DKDecayStudyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022AE1D70097800DDB076 /* DKDecayStudyScene.m */; };
+		85A022B11D70097800DDB076 /* DKDecayStudyScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022AF1D70097800DDB076 /* DKDecayStudyScene.xib */; };
+		85A022B41D700F9A00DDB076 /* DKBasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022B31D700F9A00DDB076 /* DKBasicTableViewController.m */; };
+		85A022B81D700FB500DDB076 /* DKBasicStudyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022B61D700FB500DDB076 /* DKBasicStudyScene.m */; };
+		85A022B91D700FB500DDB076 /* DKBasicStudyScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022B71D700FB500DDB076 /* DKBasicStudyScene.xib */; };
+		85A022BC1D701E0F00DDB076 /* DKCustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022BB1D701E0F00DDB076 /* DKCustomTableViewController.m */; };
+		85A022C01D701F0700DDB076 /* DKFlyInScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022BE1D701F0700DDB076 /* DKFlyInScene.m */; };
+		85A022C11D701F0700DDB076 /* DKFlyInScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022BF1D701F0700DDB076 /* DKFlyInScene.xib */; };
+		85A022C51D7025F400DDB076 /* DKPopUpScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022C31D7025F400DDB076 /* DKPopUpScene.m */; };
+		85A022C61D7025F400DDB076 /* DKPopUpScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022C41D7025F400DDB076 /* DKPopUpScene.xib */; };
+		85A022CA1D70289400DDB076 /* DKDecayMoveScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022C81D70289400DDB076 /* DKDecayMoveScene.m */; };
+		85A022CB1D70289400DDB076 /* DKDecayMoveScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022C91D70289400DDB076 /* DKDecayMoveScene.xib */; };
+		85A022CF1D70402B00DDB076 /* DKTransformScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A022CD1D70402B00DDB076 /* DKTransformScene.m */; };
+		85A022D01D70402B00DDB076 /* DKTransformScene.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A022CE1D70402B00DDB076 /* DKTransformScene.xib */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = DKAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09722EE77585553F2CAFB3EC /* Pods_DKAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2C1467799C79F2E2DFB8B6 /* Pods-DKAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKAnimation_Tests/Pods-DKAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D57E34D50EB37B7552FD6CB /* Pods-DKAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKAnimation_Example/Pods-DKAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		21066A6499BD41CAF4DC8F5F /* Pods-DKAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKAnimation_Example/Pods-DKAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* DKAnimation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKAnimation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* DKAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKAnimation-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* DKAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* DKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* DKAnimation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKAnimation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		680CCC9A19A9FCBEBBD1CB16 /* Pods-DKAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKAnimation_Tests/Pods-DKAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82F26C604D6D3723A5FDBD89 /* DKAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DKAnimation.podspec; path = ../DKAnimation.podspec; sourceTree = "<group>"; };
+		85A022811D6C4F7000DDB076 /* DKCustomAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCustomAnimationViewController.h; sourceTree = "<group>"; };
+		85A022821D6C4F7000DDB076 /* DKCustomAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCustomAnimationViewController.m; sourceTree = "<group>"; };
+		85A022831D6C4F7000DDB076 /* DKCustomAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKCustomAnimationViewController.xib; sourceTree = "<group>"; };
+		85A022911D6E982C00DDB076 /* DKSpringTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSpringTableViewController.h; sourceTree = "<group>"; };
+		85A022921D6E982C00DDB076 /* DKSpringTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSpringTableViewController.m; sourceTree = "<group>"; };
+		85A022961D6E992800DDB076 /* DKSpringStudyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSpringStudyScene.h; sourceTree = "<group>"; };
+		85A022971D6E992800DDB076 /* DKSpringStudyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSpringStudyScene.m; sourceTree = "<group>"; };
+		85A022981D6E992800DDB076 /* DKSpringStudyScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKSpringStudyScene.xib; sourceTree = "<group>"; };
+		85A0229D1D6FD71100DDB076 /* DKCustomPropertyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCustomPropertyScene.h; sourceTree = "<group>"; };
+		85A0229E1D6FD71100DDB076 /* DKCustomPropertyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCustomPropertyScene.m; sourceTree = "<group>"; };
+		85A0229F1D6FD71100DDB076 /* DKCustomPropertyScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKCustomPropertyScene.xib; sourceTree = "<group>"; };
+		85A022A21D6FE18600DDB076 /* DKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBaseViewController.h; sourceTree = "<group>"; };
+		85A022A31D6FE18600DDB076 /* DKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBaseViewController.m; sourceTree = "<group>"; };
+		85A022A51D6FE6FD00DDB076 /* DKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMacros.h; sourceTree = "<group>"; };
+		85A022A81D6FEB8C00DDB076 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		85A022AA1D70095900DDB076 /* DKDecayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDecayTableViewController.h; sourceTree = "<group>"; };
+		85A022AB1D70095900DDB076 /* DKDecayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDecayTableViewController.m; sourceTree = "<group>"; };
+		85A022AD1D70097800DDB076 /* DKDecayStudyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDecayStudyScene.h; sourceTree = "<group>"; };
+		85A022AE1D70097800DDB076 /* DKDecayStudyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDecayStudyScene.m; sourceTree = "<group>"; };
+		85A022AF1D70097800DDB076 /* DKDecayStudyScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKDecayStudyScene.xib; sourceTree = "<group>"; };
+		85A022B21D700F9A00DDB076 /* DKBasicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBasicTableViewController.h; sourceTree = "<group>"; };
+		85A022B31D700F9A00DDB076 /* DKBasicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBasicTableViewController.m; sourceTree = "<group>"; };
+		85A022B51D700FB500DDB076 /* DKBasicStudyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBasicStudyScene.h; sourceTree = "<group>"; };
+		85A022B61D700FB500DDB076 /* DKBasicStudyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBasicStudyScene.m; sourceTree = "<group>"; };
+		85A022B71D700FB500DDB076 /* DKBasicStudyScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKBasicStudyScene.xib; sourceTree = "<group>"; };
+		85A022BA1D701E0F00DDB076 /* DKCustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCustomTableViewController.h; sourceTree = "<group>"; };
+		85A022BB1D701E0F00DDB076 /* DKCustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCustomTableViewController.m; sourceTree = "<group>"; };
+		85A022BD1D701F0700DDB076 /* DKFlyInScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFlyInScene.h; sourceTree = "<group>"; };
+		85A022BE1D701F0700DDB076 /* DKFlyInScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFlyInScene.m; sourceTree = "<group>"; };
+		85A022BF1D701F0700DDB076 /* DKFlyInScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKFlyInScene.xib; sourceTree = "<group>"; };
+		85A022C21D7025F400DDB076 /* DKPopUpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPopUpScene.h; sourceTree = "<group>"; };
+		85A022C31D7025F400DDB076 /* DKPopUpScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPopUpScene.m; sourceTree = "<group>"; };
+		85A022C41D7025F400DDB076 /* DKPopUpScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKPopUpScene.xib; sourceTree = "<group>"; };
+		85A022C71D70289400DDB076 /* DKDecayMoveScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDecayMoveScene.h; sourceTree = "<group>"; };
+		85A022C81D70289400DDB076 /* DKDecayMoveScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDecayMoveScene.m; sourceTree = "<group>"; };
+		85A022C91D70289400DDB076 /* DKDecayMoveScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKDecayMoveScene.xib; sourceTree = "<group>"; };
+		85A022CC1D70402B00DDB076 /* DKTransformScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTransformScene.h; sourceTree = "<group>"; };
+		85A022CD1D70402B00DDB076 /* DKTransformScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTransformScene.m; sourceTree = "<group>"; };
+		85A022CE1D70402B00DDB076 /* DKTransformScene.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKTransformScene.xib; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99208A273DCA7DB1F1C54637 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C521F51C85756BB7B8C38BC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C88A91F325847728276D9B20 /* Pods_DKAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				44EF0D79E0C87D1359711F16 /* Pods_DKAnimation_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				2901BF2A8792B4E23704302F /* Pods_DKAnimation_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02165E35ED188FADFB875D16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D57E34D50EB37B7552FD6CB /* Pods-DKAnimation_Example.debug.xcconfig */,
+				21066A6499BD41CAF4DC8F5F /* Pods-DKAnimation_Example.release.xcconfig */,
+				680CCC9A19A9FCBEBBD1CB16 /* Pods-DKAnimation_Tests.debug.xcconfig */,
+				0A2C1467799C79F2E2DFB8B6 /* Pods-DKAnimation_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for DKAnimation */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				02165E35ED188FADFB875D16 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* DKAnimation_Example.app */,
+				6003F5AE195388D20070C39A /* DKAnimation_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				C88A91F325847728276D9B20 /* Pods_DKAnimation_Example.framework */,
+				09722EE77585553F2CAFB3EC /* Pods_DKAnimation_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for DKAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				85A0228E1D6E97D500DDB076 /* Basic */,
+				85A0228F1D6E97D500DDB076 /* Decay */,
+				85A022901D6E97D500DDB076 /* Spring */,
+				85A022801D6C4F0900DDB076 /* CustomAnimation */,
+				6003F59C195388D20070C39A /* DKAppDelegate.h */,
+				6003F59D195388D20070C39A /* DKAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* DKViewController.h */,
+				6003F5A6195388D20070C39A /* DKViewController.m */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+				85A022A21D6FE18600DDB076 /* DKBaseViewController.h */,
+				85A022A31D6FE18600DDB076 /* DKBaseViewController.m */,
+				85A022A51D6FE6FD00DDB076 /* DKMacros.h */,
+			);
+			name = "Example for DKAnimation";
+			path = DKAnimation;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A022A81D6FEB8C00DDB076 /* Launch Screen.storyboard */,
+				6003F595195388D20070C39A /* DKAnimation-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* DKAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				82F26C604D6D3723A5FDBD89 /* DKAnimation.podspec */,
+				C521F51C85756BB7B8C38BC6 /* README.md */,
+				99208A273DCA7DB1F1C54637 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		85A022801D6C4F0900DDB076 /* CustomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				85A022BA1D701E0F00DDB076 /* DKCustomTableViewController.h */,
+				85A022BB1D701E0F00DDB076 /* DKCustomTableViewController.m */,
+				85A022811D6C4F7000DDB076 /* DKCustomAnimationViewController.h */,
+				85A022821D6C4F7000DDB076 /* DKCustomAnimationViewController.m */,
+				85A022831D6C4F7000DDB076 /* DKCustomAnimationViewController.xib */,
+				85A0229D1D6FD71100DDB076 /* DKCustomPropertyScene.h */,
+				85A0229E1D6FD71100DDB076 /* DKCustomPropertyScene.m */,
+				85A0229F1D6FD71100DDB076 /* DKCustomPropertyScene.xib */,
+				85A022BD1D701F0700DDB076 /* DKFlyInScene.h */,
+				85A022BE1D701F0700DDB076 /* DKFlyInScene.m */,
+				85A022BF1D701F0700DDB076 /* DKFlyInScene.xib */,
+				85A022C21D7025F400DDB076 /* DKPopUpScene.h */,
+				85A022C31D7025F400DDB076 /* DKPopUpScene.m */,
+				85A022C41D7025F400DDB076 /* DKPopUpScene.xib */,
+				85A022C71D70289400DDB076 /* DKDecayMoveScene.h */,
+				85A022C81D70289400DDB076 /* DKDecayMoveScene.m */,
+				85A022C91D70289400DDB076 /* DKDecayMoveScene.xib */,
+				85A022CC1D70402B00DDB076 /* DKTransformScene.h */,
+				85A022CD1D70402B00DDB076 /* DKTransformScene.m */,
+				85A022CE1D70402B00DDB076 /* DKTransformScene.xib */,
+			);
+			path = CustomAnimation;
+			sourceTree = "<group>";
+		};
+		85A0228E1D6E97D500DDB076 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				85A022B21D700F9A00DDB076 /* DKBasicTableViewController.h */,
+				85A022B31D700F9A00DDB076 /* DKBasicTableViewController.m */,
+				85A022B51D700FB500DDB076 /* DKBasicStudyScene.h */,
+				85A022B61D700FB500DDB076 /* DKBasicStudyScene.m */,
+				85A022B71D700FB500DDB076 /* DKBasicStudyScene.xib */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		85A0228F1D6E97D500DDB076 /* Decay */ = {
+			isa = PBXGroup;
+			children = (
+				85A022AA1D70095900DDB076 /* DKDecayTableViewController.h */,
+				85A022AB1D70095900DDB076 /* DKDecayTableViewController.m */,
+				85A022AD1D70097800DDB076 /* DKDecayStudyScene.h */,
+				85A022AE1D70097800DDB076 /* DKDecayStudyScene.m */,
+				85A022AF1D70097800DDB076 /* DKDecayStudyScene.xib */,
+			);
+			path = Decay;
+			sourceTree = "<group>";
+		};
+		85A022901D6E97D500DDB076 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				85A022911D6E982C00DDB076 /* DKSpringTableViewController.h */,
+				85A022921D6E982C00DDB076 /* DKSpringTableViewController.m */,
+				85A022961D6E992800DDB076 /* DKSpringStudyScene.h */,
+				85A022971D6E992800DDB076 /* DKSpringStudyScene.m */,
+				85A022981D6E992800DDB076 /* DKSpringStudyScene.xib */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* DKAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DKAnimation_Example" */;
+			buildPhases = (
+				1C8347D89461E84EAF244CD5 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				DC86E113AF6206FBE0F8C27B /* [CP] Embed Pods Frameworks */,
+				A854DD52DE5AD175C6F88BA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKAnimation_Example;
+			productName = DKAnimation;
+			productReference = 6003F58A195388D20070C39A /* DKAnimation_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* DKAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DKAnimation_Tests" */;
+			buildPhases = (
+				299406538CB848682298C70A /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				5011C2CD951C6658C2AD7FA9 /* [CP] Embed Pods Frameworks */,
+				AFBAECFCE93282D8F3AF0910 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = DKAnimation_Tests;
+			productName = DKAnimationTests;
+			productReference = 6003F5AE195388D20070C39A /* DKAnimation_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "qiang zhai";
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DKAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* DKAnimation_Example */,
+				6003F5AD195388D20070C39A /* DKAnimation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A022A11D6FD71100DDB076 /* DKCustomPropertyScene.xib in Resources */,
+				85A022B91D700FB500DDB076 /* DKBasicStudyScene.xib in Resources */,
+				85A022B11D70097800DDB076 /* DKDecayStudyScene.xib in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				85A022C11D701F0700DDB076 /* DKFlyInScene.xib in Resources */,
+				85A022D01D70402B00DDB076 /* DKTransformScene.xib in Resources */,
+				85A022A91D6FEB8C00DDB076 /* Launch Screen.storyboard in Resources */,
+				85A022851D6C4F7000DDB076 /* DKCustomAnimationViewController.xib in Resources */,
+				85A0229A1D6E992800DDB076 /* DKSpringStudyScene.xib in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				85A022C61D7025F400DDB076 /* DKPopUpScene.xib in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				85A022CB1D70289400DDB076 /* DKDecayMoveScene.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C8347D89461E84EAF244CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		299406538CB848682298C70A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5011C2CD951C6658C2AD7FA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKAnimation_Tests/Pods-DKAnimation_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A854DD52DE5AD175C6F88BA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKAnimation_Example/Pods-DKAnimation_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBAECFCE93282D8F3AF0910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKAnimation_Tests/Pods-DKAnimation_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC86E113AF6206FBE0F8C27B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKAnimation_Example/Pods-DKAnimation_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A022C01D701F0700DDB076 /* DKFlyInScene.m in Sources */,
+				85A022BC1D701E0F00DDB076 /* DKCustomTableViewController.m in Sources */,
+				85A022AC1D70095900DDB076 /* DKDecayTableViewController.m in Sources */,
+				85A022991D6E992800DDB076 /* DKSpringStudyScene.m in Sources */,
+				85A022B81D700FB500DDB076 /* DKBasicStudyScene.m in Sources */,
+				6003F59E195388D20070C39A /* DKAppDelegate.m in Sources */,
+				85A022A41D6FE18600DDB076 /* DKBaseViewController.m in Sources */,
+				85A022CA1D70289400DDB076 /* DKDecayMoveScene.m in Sources */,
+				6003F5A7195388D20070C39A /* DKViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				85A022CF1D70402B00DDB076 /* DKTransformScene.m in Sources */,
+				85A022941D6E982C00DDB076 /* DKSpringTableViewController.m in Sources */,
+				85A022841D6C4F7000DDB076 /* DKCustomAnimationViewController.m in Sources */,
+				85A022C51D7025F400DDB076 /* DKPopUpScene.m in Sources */,
+				85A022B01D70097800DDB076 /* DKDecayStudyScene.m in Sources */,
+				85A022B41D700F9A00DDB076 /* DKBasicTableViewController.m in Sources */,
+				85A022A01D6FD71100DDB076 /* DKCustomPropertyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* DKAnimation_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D57E34D50EB37B7552FD6CB /* Pods-DKAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKAnimation/DKAnimation-Prefix.pch";
+				INFOPLIST_FILE = "DKAnimation/DKAnimation-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21066A6499BD41CAF4DC8F5F /* Pods-DKAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKAnimation/DKAnimation-Prefix.pch";
+				INFOPLIST_FILE = "DKAnimation/DKAnimation-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 680CCC9A19A9FCBEBBD1CB16 /* Pods-DKAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKAnimation_Example.app/DKAnimation_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2C1467799C79F2E2DFB8B6 /* Pods-DKAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKAnimation_Example.app/DKAnimation_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "DKAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DKAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DKAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

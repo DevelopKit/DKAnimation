@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DKAnimation_Example' do
+  pod 'DKAnimation', :path => '../'
+
+  target 'DKAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
